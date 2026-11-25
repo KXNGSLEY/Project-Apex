@@ -1,7 +1,7 @@
 # PROJECT APEX – Research and Execution Platform
 
 **Advanced Multi-Exchange Cryptocurrency Futures Intelligence System**  
-Monolithic single-file implementation (`apex.py`).
+it's technically "AMECFIS".... but "APEX" sounds better
 
 ## Implemented Capabilities
 
@@ -16,6 +16,7 @@ Monolithic single-file implementation (`apex.py`).
 ## Safety and Execution
 
 - The default execution mode is `paper`; no credentials or wallet connection are required.
+- This project is NOT READY, isn't fully tested and still actively under construction... do not enable live trading or you might get REKT
 - Signal-driven OKX futures orders are available when `EXECUTION_MODE=live`.
 - Live mode additionally requires OKX credentials, an explicit confirmation token,
   and `LIVE_KILL_SWITCH=false`.
@@ -108,7 +109,7 @@ Set environment variables:
 export TELEGRAM_BOT_TOKEN="your_bot_token"
 export TELEGRAM_CHAT_ID="your_chat_id"
 ```
-Then start the engine – high-score opportunities and paper closes will be pushed.
+Then start the engine, high-score opportunities and paper closes will be pushed.
 
 #### Enabling real OKX orders
 
@@ -169,5 +170,5 @@ institutional-grade execution.
 - Graceful degradation when exchanges are geo-blocked
 - Fully monolithic single file
 
-APEX is a research and paper-trading workstation. No signal or market-data source
-can be guaranteed flawless, and the software does not guarantee trading results.
+APEX is primarily a research and paper-trading workstation. No signal or market-data source
+can be guaranteed flawless, and the software does not guarantee trading results, so DYOR
