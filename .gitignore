@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data_store/
+logs/
+__pycache__/
+*.py[cod]
+apex_settings.json
+*.db
+*.sqlite
+*.sqlite3
