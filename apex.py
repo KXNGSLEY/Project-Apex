@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
 """
-PROJECT APEX – Advanced Multi-Exchange Cryptocurrency Futures Intelligence System
+PROJECT APEX – Advanced Multi-Exchange Cryptocurrency Futures Intelligence System V0.1 pre pre pre alpha lol
 ==================================================================================
-Monolithic single-file implementation.
-
-STAGE 1 (Complete): Market Data Acquisition Engine
-STAGE 2 (Complete): Technical Analysis + Market Structure + Liquidity/Order-Flow
-                    + Derivatives Intelligence + Volatility & Regime Detection
-STAGE 3 (Complete): Entry Optimisation + Dynamic Stop-Loss + Take-Profit
-                    + Net Risk/Reward + Position Sizing + Opportunity Ranking
-STAGE 4 (Complete): Backtesting + Paper Trading + Performance Tracking
-STAGE 5 (Current):  Streamlit Dashboard + Telegram Notifications + Monitoring
-
-Zero-dollar budget. Public market data only. No look-ahead bias.
 """
-
 from __future__ import annotations
 
 import asyncio
